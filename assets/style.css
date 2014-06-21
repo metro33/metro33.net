@@ -1,0 +1,45 @@
+body>table {
+    margin:0 auto;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+.large{
+	display: none;
+
+}
+.comment {
+	color: white;
+	padding: 10px 20px;
+	margin-top: -30px;
+	background: url(comment.png);
+}
+.image .small {
+	position: absolute;
+	left: 0;
+	top: 0;
+
+}
+
+a{
+	text-decoration: none;
+}
+.image.over {
+
+
+	z-index: 1000 !important;
+}
+
+.over .large{
+	display: block;
+	position: absolute;
+	left: -50px;
+	top: -50px;
+
+}
+
+.image{
+
+	position: relative;
+	z-index: 1;
+}
